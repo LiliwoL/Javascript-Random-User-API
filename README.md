@@ -1,36 +1,78 @@
 # Affichage de données issues d'une API
 
-## Langages
+A partir d'un fichier de données (au format JSON) fourni, vous devez afficher les informations reçues dans un tableau.
+
+Le tableau sera embelli avec **BootStrap** et vous aurez à afficher desimages en fonction du résultat *(icônes différentes selon le genre)*.
+
+![readme_docs/img.png](readme_docs/img.png)
+
+## Objectifs / Compétences
+
+> Savoir parcourir un tableau d'objets
+	> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
+> Découverte et utilisation de JSON
+	> https://developer.mozilla.org/fr/docs/Learn/JavaScript/Objects/JSON
+> Utilisation de Fetch
+	> https://developer.mozilla.org/fr/docs/Web/API/Fetch_API/Using_Fetch
+> Utilisation de console.log console.table
+> Notions de requêtes / réponses HTTP
+
+## Langages utilisés
 
 > HTML
 > Javascript
 > CSS
 
-## Jeu de données
+##  Consignes
 
+- Effectuer une requête sur le site **https://randomuser.me/api/**
+	- L'URL à appeler pour ce TP (**endpoint**):
+		- https://randomuser.me/api/?results=50
+- Parcourir le résultat reçu et l'afficher dans un tableau HTML
+- Le tableau doit être embelli en utilisant **Bootstrap**
+- Les données à afficher (à minima) sont:
+	- username
+	- genre *(affichage d'une icône différente selon le genre)*
+	- Une concaténation du **titre**, du **nom** et du **prénom**
+	- photo
+	- ville
+	- nom du pays *(ou drapeau du pays en bonus)*
+
+![readme_docs/img2.png](readme_docs/img2.png)
 
 
 ## Bibliothèque utilisée
 
-> DataTable
 > Bootstrap
+	> https://getbootstrap.com/
+> Flag icons
+	> https://github.com/lipis/flag-icons
 
-***
 
-## Objectifs / Compétences
+## Travail à rendre
 
-> Savoir parcourir un tableau d'objets
-> Utilisation de JSON
-> Utilisation d'une librairie JS
-> console.log console.table
-> Notions d'API
+> Envoyer son code via un dépôt GitHub
+> Respecter les consignes demandées
+> Faire preuve d'originalité!
+
+## Barême
+
+> Respect des consignes     2 pt
+> Fonctionnement du code    2 pt
+> Clarté et lisibilité      1 pt
+
+> Retard ou non respect des consignes 0
 
 ***
 
 ## Bonus
 
 > Utiliser des icônes personnalisées
-    > https://thenounproject.com/search/icons/?iconspage=1&q=car%20handicap
+> https://thenounproject.com/search/icons/?iconspage=1&q=car%20handicap
+
 > Afficher sous forme de tableau sous la carte
-> Afficher les images avec coins arrondis
-> Afficher l'icône méteo en utilisant une autre API
+
+
+## Proposition de solution
+
+- https://github.com/LiliwoL/Javascript-Random-User-API
