@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random User API</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Drapeaux -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" />
+  </head>
+  <body>
+    <!-- Tableau en Bootstrap: https://getbootstrap.com/docs/5.2/content/tables/ -->
+    <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Gender</th> <!-- Affichage avec une icône du genre icône à prendre sur Nounproject -->
+            <th scope="col">Nom</th> <!-- Concaténation Nom ET du prénom -->
+            <th scope="col">Photo</th><!-- Photo en arrondi avec un taille correcte -->
+            <th scope="col">Ville</th><!-- Nom de la ville -->
+
+            <!-- BONUS -->
+            <th scope="col">Pays</th><!-- Affichage de l'image du drapeau du pays -->
+          </tr>
+        </thead>
+        <tbody id="userLines">
+          <!-- Données issues du JSON -->
+        </tbody>
+      </table>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Appel du script -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
+
