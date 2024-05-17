@@ -22,12 +22,12 @@ if (window.fetch){
         // Et on aura un paramètre qui est la réponse
         function (response) {
             console.info("SUCCESS");
-            console.log( response );
+            console.log( response.statusText );
 
             // Tester le statut de la réponse
                 // https://developer.mozilla.org/en-US/docs/Web/API/Response/statusText
             // et en fonction on continue ou non
-            if ( response.statusText === "OK" ){
+            if ( response.status == 200 ){
                 
                 // On peut continuer
                 // Par défaut, l'API renvoie le format JSON
@@ -37,7 +37,7 @@ if (window.fetch){
                     // Succès de la promesse de transformation de la réponse en JSON
                     function (datas) {
                         // Succès
-                        //console.table(datas.results);
+                        console.table(datas);
 
                         // En observant les données reçues, on voit que les résultats sont dans
                         // datas.results
