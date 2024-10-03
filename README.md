@@ -2,7 +2,7 @@
 
 A partir d'un fichier de données (au format JSON) fourni, vous devez afficher les informations reçues dans un tableau.
 
-Le tableau sera embelli avec **BootStrap** et vous aurez à afficher desimages en fonction du résultat *(icônes différentes selon le genre)*.
+Le tableau sera embelli avec **BootStrap** et vous aurez à afficher des images en fonction du résultat *(icônes différentes selon le genre)*.
 
 ![readme_docs/img.png](readme_docs/img.png)
 

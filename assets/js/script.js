@@ -78,7 +78,6 @@ if (window.fetch){
             console.error ( error );
         }        
     )
-    
 
 }else{
 
