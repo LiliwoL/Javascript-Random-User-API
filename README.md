@@ -36,7 +36,8 @@ Le tableau sera embelli avec **BootStrap** et vous aurez à afficher des images 
 	- Une concaténation du **titre**, du **nom** et du **prénom**
 	- photo
 	- ville
-	- nom du pays *(ou drapeau du pays en bonus)*
+	- nom du pays 
+	- **drapeau du pays de la nationalité en bonus**
 
 ![readme_docs/img2.png](readme_docs/img2.png)
 
@@ -68,9 +69,12 @@ Le tableau sera embelli avec **BootStrap** et vous aurez à afficher des images 
 ## Bonus
 
 > Utiliser des icônes personnalisées
-> https://thenounproject.com/search/icons/?iconspage=1&q=car%20handicap
+	> https://thenounproject.com/search/icons/
 
-> Afficher sous forme de tableau sous la carte
+> Afficher le drapeau de la nationalité
+
+> Afficher la météo de la ville
+	> https://openweathermap.org/api
 
 
 ## Proposition de solution

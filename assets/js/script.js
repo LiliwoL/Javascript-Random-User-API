@@ -156,9 +156,12 @@ function generateUserLine( user ){
     let tdCityHTML = document.createElement('TD');
     tdCityHTML.innerText = user.location.city;
 
-    // Pays
+     // Pays
     let tdCountryHTML = document.createElement('TD');
-        //tdCountryHTML.innerText = user.location.country;
+    tdCountryHTML.innerText = user.location.country;
+
+    // Pays
+    let tdNationalityHTML = document.createElement('TD');
 
         // Drapeau
         // On utilise pour cela un fichier CSS contenant tous les drapeaux
@@ -167,7 +170,7 @@ function generateUserLine( user ){
         spanFlagHTML.setAttribute('class', 'fi fi-' + user.nat.toLowerCase() );
 
         // Filiation
-        tdCountryHTML.appendChild( spanFlagHTML );
+        tdNationalityHTML.appendChild( spanFlagHTML );
 
 
     // **************    
@@ -180,6 +183,7 @@ function generateUserLine( user ){
         generatedUserLine.appendChild( tdPictureHTML );
         generatedUserLine.appendChild( tdCityHTML );
         generatedUserLine.appendChild( tdCountryHTML );
+        generatedUserLine.appendChild( tdNationalityHTML );
         // ...
 
 
